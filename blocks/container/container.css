@@ -1,0 +1,19 @@
+.container {
+  box-sizing: border-box;
+  max-width: calc(100% - 48px * 2);
+
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 16px 0;
+  }
+}

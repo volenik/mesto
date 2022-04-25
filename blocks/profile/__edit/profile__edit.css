@@ -1,0 +1,10 @@
+.profile__edit {
+    padding: 15px 0 0 18px;
+    
+}
+/*
+@media screen and (max-width: 320px) {
+    .profile__edit {
+    padding-left: 10px;
+    }
+  }

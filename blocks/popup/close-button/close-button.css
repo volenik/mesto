@@ -1,0 +1,21 @@
+.close-button {
+  position: relative;
+  left: 240px;
+  top: 20px;
+  transform: rotate(45deg);
+  font-size: 72px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .close-button {
+    max-width: 320px;
+    left: 132px;
+    top: 8px;
+    font-size: 48px;
+
+  }
+}

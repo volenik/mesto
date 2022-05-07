@@ -9,13 +9,31 @@
     <title>Mesto</title>
   </head>
   <body class="page">
-    <div class="container">
-      <div class="popup">
-        <div class="popup__container"></div>
+    <div class="popup">
+      <div class="close-button">+</div>
+      <div class="popup__container">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form class="popup__content">
+          <input
+            class="popup__input"
+            type="text"
+            placeholder="Жак-Ив Кусто"
+            id="nameInput"
+          />
+          <input
+            class="popup__input"
+            type="text"
+            placeholder="Исследователь океана"
+            id="jobInput"
+          />
+        </form>
+        <button class="popup__button" type="submit">Сохранить</button>
       </div>
+    </div>
 
+    <div class="container">
       <section class="header">
-        <img src="images/header-logo.svg" alt="" class="header__logo.css" />
+        <img class="header__logo" src="images/header-logo.svg" alt="" />
       </section>
 
       <section class="profile">
@@ -26,19 +44,20 @@
             alt="фото профиля"
           />
           <div class="profile__description">
-            <div class="profile__info">
+            <div class="profile__header">
               <h1 class="profile__title">Жак-Ив Кусто</h1>
-              <img
-                class="profile__edit"
-                src="images/profileButton.svg"
-                alt="Редактирoвать"
-              />
+              <a href="#" class="link"
+                ><img
+                  class="profile__edit"
+                  src="images/profileButton.svg"
+                  alt="Редактирoвать"
+              /></a>
             </div>
             <p class="profile__subtitle">Исследователь океана</p>
           </div>
         </div>
-        <button class="profile__addButton">
-          <div class="profile__plus"></div>
+        <button class="profile__addButton link">
+          <p class="profile__plus"></p>
         </button>
       </section>
 
@@ -47,7 +66,9 @@
           <img class="card__image" src="images/church.jpg" alt="" />
           <div class="card__description">
             <p class="card__title">Карачаевск</p>
-            <img class="card__like" src="images/like.svg" alt="" />
+            <a href="#" class="link"
+              ><img class="card__like" src="images/like.svg" alt=""
+            /></a>
           </div>
         </div>
 
@@ -55,7 +76,9 @@
           <img class="card__image" src="images/mountains.jpg" alt="" />
           <div class="card__description">
             <p class="card__title">Гора Эльбрус</p>
-            <img class="card__like" src="images/like.svg" alt="" />
+            <a href="#" class="link"
+              ><img class="card__like" src="images/like.svg" alt=""
+            /></a>
           </div>
         </div>
 
@@ -63,7 +86,9 @@
           <img class="card__image" src="images/sunset.jpg" alt="" />
           <div class="card__description">
             <p class="card__title">Домбай</p>
-            <img class="card__like" src="images/like.svg" alt="" />
+            <a href="#" class="link"
+              ><img class="card__like" src="images/like.svg" alt=""
+            /></a>
           </div>
         </div>
 
@@ -71,7 +96,9 @@
           <img class="card__image" src="images/mountains.jpg" alt="" />
           <div class="card__description">
             <p class="card__title">Гора Эльбрус</p>
-            <img class="card__like" src="images/like.svg" alt="" />
+            <a href="#" class="link"
+              ><img class="card__like" src="images/like.svg" alt=""
+            /></a>
           </div>
         </div>
 
@@ -79,7 +106,9 @@
           <img class="card__image" src="images/sunset.jpg" alt="" />
           <div class="card__description">
             <p class="card__title">Домбай</p>
-            <img class="card__like" src="images/like.svg" alt="" />
+            <a href="#" class="link"
+              ><img class="card__like" src="images/like.svg" alt=""
+            /></a>
           </div>
         </div>
 
@@ -87,7 +116,9 @@
           <img class="card__image" src="images/church.jpg" alt="" />
           <div class="card__description">
             <p class="card__title">Карачаево-Черкессия</p>
-            <img class="card__like" src="images/like.svg" alt="" />
+            <a href="#" class="link"
+              ><img class="card__like" src="images/like.svg" alt=""
+            /></a>
           </div>
         </div>
       </section>
@@ -95,5 +126,6 @@
         <p class="footer__copyright">2020 Mesto Russia</p>
       </section>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

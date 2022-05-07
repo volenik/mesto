@@ -1,0 +1,6 @@
+.popup__content {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}

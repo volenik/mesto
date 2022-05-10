@@ -6,13 +6,12 @@
   padding-bottom: 60px;
   z-index: 0;
 }
-/*
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1064px) {
   .container {
-    max-width: 100%;
+    max-width: calc(100% - 30px * 2);
   }
 }
-*/
 
 @media screen and (max-width: 320px) {
   .container {

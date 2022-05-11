@@ -1,10 +1,10 @@
 .footer {
-    max-width: 318px;
-    min-height: 18px;
+  max-width: 318px;
+  min-height: 18px;
 }
 
 @media screen and (max-width: 320px) {
-    .footer {
-      padding: 48px 19px 0 19px;
-    }
+  .footer {
+    padding: 48px 19px 0 19px;
   }
+}

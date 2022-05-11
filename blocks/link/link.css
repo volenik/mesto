@@ -5,7 +5,7 @@
 }
 
 .link:active {
-    opacity: 1;
-    background: url(../../images/like-activ.svg) no-repeat ;
-    transition: background 0.6s;
+  opacity: 1;
+  background: url(../../images/like-activ.svg) no-repeat;
+  transition: background 0.6s;
 }

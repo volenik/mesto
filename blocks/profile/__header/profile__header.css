@@ -5,10 +5,15 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 710px) {
+  .profile__header {
+    margin-top: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .profile__header {
     max-width: calc(1000% - 19px * 2);
     flex-direction: row;
-
   }
 }

@@ -2,12 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   cursor: pointer;
-  background: url(../../../images/add-button.svg) no-repeat  ;
+  background: url(../../../images/add-button.svg) no-repeat;
   border-radius: 2px;
   height: 51px;
   width: 150px;
   border: none;
-
 }
 
 @media screen and (max-width: 710px) {

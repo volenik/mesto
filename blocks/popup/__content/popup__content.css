@@ -1,8 +1,20 @@
+.popup__content {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 555px) {
+  .popup__content {
+    padding-top: 15px;
+    padding-bottom: 45px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .popup__content {
-    display: block;
-    box-sizing: border-box;
-    padding-top: 68px;
+    padding-top: 38px;
     padding-bottom: 45px;
   }
 }

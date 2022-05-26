@@ -1,13 +1,18 @@
 .profile__info {
-  min-width: 336px;
   display: flex;
   align-items: center;
+  /* width: 336px; */
 }
 
 @media screen and (max-width: 710px) {
   .profile__info {
-    max-width: calc(1000% - 19px * 2);
+    width: calc(100% - 19px * 2);
     flex-direction: column;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .profile__info {
+    width: 100%;
+  }
+}

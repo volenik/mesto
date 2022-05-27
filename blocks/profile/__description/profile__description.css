@@ -1,17 +1,16 @@
 .profile__description {
-  min-width: 336px;
+  max-width: 336px;
   padding-left: 30px;
 }
 
 @media screen and (max-width: 550px) {
   .profile__description {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .profile__description {
-    min-width: 100%;
     padding-left: 0;
     padding-top: 25px;
   }

@@ -12,7 +12,9 @@ const formElement = document.querySelector(".popup__form");
 //open popup
 
 function popupOpen() {
-  popup.classList.toggle("popup__opened");
+  popup.classList.toggle("popup_opened");
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;
 }
 
 popup.addEventListener("click", function (event) {
